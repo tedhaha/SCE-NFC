@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_centerHorizontal="true"
+        android:text="예약을 위해 핸드폰을 대주세요"
+        android:ems="30" >
+        <requestFocus />
+    </TextView>
+    
+    <!-- PC와의 socket통신 테스트용 버튼 
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_text"
+        android:text="Send Message to PC" />
+     -->
+
+
+</LinearLayout>
